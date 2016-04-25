@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:gravity="center">
+    <com.flyco.roundview.RoundTextView
+        android:id="@+id/rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rv_backgroundColor="@color/white"
+        app:rv_backgroundPressColor="@color/orangered"
+        app:rv_backgroundSelectedColor="@color/orangered"
+        android:textColor="@color/orangered"
+        app:rv_textPressColor="@color/white"
+        app:rv_textSelectedColor="@color/white"
+        app:rv_strokeColor="@color/orangered"
+
+        app:rv_strokeWidth="1dp"
+        android:text="这是一个测试"
+        app:rv_cornerRadius="20dp"
+        android:padding="10dp"
+        android:gravity="center">
+
+
+    </com.flyco.roundview.RoundTextView>
+</LinearLayout>
